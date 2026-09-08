@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercicio 1</title>
+
+    <style>
+
+        a {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            display: grid;
+
+            grid-template-areas:
+                "caixa1 caixa2 caixa2"
+                "caixa3 caixa3 caixa4"
+                "caixa5 caixa6 caixa6";
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            grid-template-rows: 1fr 1fr 1fr;
+
+            gap: 5px;
+        }
+
+        .caixa1 {
+            grid-area: caixa1;
+            background-color: lightblue;
+        }
+
+        .caixa2 {
+            grid-area: caixa2;
+            background-color: lightblue;
+        }
+
+        .caixa3 {
+            grid-area: caixa3;
+            background-color: lightblue;
+        }
+
+        .caixa4 {
+            grid-area: caixa4;
+            background-color: lightblue;
+        }
+
+        .caixa5 {
+            grid-area: caixa5;
+            background-color: lightblue;
+        }
+
+        .caixa6 {
+            grid-area: caixa6;
+            background-color: lightblue;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="caixa1"></div>
+        <div class="caixa2"></div>
+        <div class="caixa3"></div>
+        <div class="caixa4"></div>
+        <div class="caixa5"></div>
+        <div class="caixa6"></div>
+
+    </div>
+
+</body>
+
+</html>
